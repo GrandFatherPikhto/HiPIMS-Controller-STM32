@@ -1,0 +1,61 @@
+ERC report (2026-10-29T17:17:38, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(2400 mils, 6450 mils): Label 'BOOT1'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(9200 mils, 5850 mils): Label 'TX_IN'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(9200 mils, 6250 mils): Label 'RX_IN'
+
+***** Sheet /Power/
+
+***** Sheet /MCU/
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(1500 mils, 2700 mils): Symbol #PWR034 Pin 1 [Power input, Line]
+    @(7350 mils, 1200 mils): Label '+3V3'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(4100 mils, 1700 mils): Symbol #PWR041 Pin 1 [Power input, Line]
+    @(6750 mils, 2350 mils): Label '+3V3_VDDA'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(8450 mils, 3700 mils): Symbol #PWR049 Pin 1 [Power input, Line]
+    @(6550 mils, 2350 mils): Label '+3V3_VDD'
+
+***** Sheet /FPGA/
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(1050 mils, 5350 mils): Symbol #PWR057 Pin 1 [Power input, Line]
+    @(8400 mils, 7150 mils): Label '+3V3_VCCIO'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(1350 mils, 10650 mils): Symbol #PWR062 Pin 1 [Power input, Line]
+    @(6400 mils, 1850 mils): Label 'GND'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(2750 mils, 5350 mils): Symbol #PWR067 Pin 1 [Power input, Line]
+    @(7000 mils, 1850 mils): Label '+1V2_VCCINT'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(3350 mils, 6800 mils): Symbol #PWR070 Pin 1 [Power input, Line]
+    @(9800 mils, 2850 mils): Label '+2V5_VCCA'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(3700 mils, 2000 mils): Symbol #PWR075 Pin 1 [Power input, Line]
+    @(5900 mils, 7150 mils): Label '+1V2_VCCD_PLL'
+
+***** Sheet /Connector/
+
+ ** ERC messages: 11  Errors 0  Warnings 11
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
